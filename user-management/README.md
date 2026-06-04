@@ -2,11 +2,13 @@
 
 This lab walks through a user creation workflow inside a safe Podman container.
 
-The script prompts for:
-- a new username
-- account creation
-- password assignment
-- verification of the user's account
+## Features
+
+- Creates a new user
+- Sets a password
+- Verifies account details
+- View the user's home directory
+- Ability to Delete or Reset a lab user
 
 ## Run the Lab
 
