@@ -11,6 +11,6 @@ WORKDIR /labs
 
 COPY . /labs
 
-RUN chmod +x /labs/user-management/lab.sh
+RUN chmod +x /labs/user-management/lab.sh /labs/permissions/lab.sh
 
 CMD ["/bin/bash"]
