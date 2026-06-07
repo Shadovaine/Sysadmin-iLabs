@@ -1,6 +1,6 @@
-# User-Management Labs
+# User-Management Lab
 
-This lab walks through a user creation workflow inside a safe Podman container.
+This lab walks a user through user creation workflow inside a safe containized environment.
 
 ## Features
 
