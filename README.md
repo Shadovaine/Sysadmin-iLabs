@@ -11,6 +11,7 @@ The goal is to practice real admin workflows in a safe, repeatable lab environme
 - [User Management](./user-management)
 - [Permissions](./permissions)
 - [Log Analysis](./log-analysis)
+- [Service Management](./service-management)
 - [Backup Automation](./backup-automation)
 - [System Health Check](./system-health-check)
 
@@ -25,10 +26,12 @@ This repo is designed to demonstrate:
 - Clear technical documentation
 - Safe lab-based learning
 
+## Labs Available:
+
+- [User Management](./user-management)
+- [Permissions](./permissions)
+- [Service Management](./service-management)
+
 ## Current Status
 
 This project is under active development.
-
-The first lab being built is:
-
-[User Management](./user-management)
