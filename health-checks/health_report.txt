@@ -1,0 +1,43 @@
+=====System Health Report=====
+Generated: Sun Jun  7 04:57:52 PM CDT 2026
+
+===== Uptime =====
+ 16:57:52 up  1:57,  1 user,  load average: 0.33, 0.57, 0.59
+
+===== Memory Usage =====
+               total        used        free      shared  buff/cache   available
+Mem:            13Gi       3.9Gi       6.2Gi        81Mi       3.4Gi       9.7Gi
+Swap:          8.0Gi          0B       8.0Gi
+
+===== Dish Usage =====
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/dm-0       236G  8.2G  227G   4% /
+devtmpfs        6.8G     0  6.8G   0% /dev
+tmpfs           6.8G   33M  6.8G   1% /dev/shm
+efivarfs        148K  114K   30K  80% /sys/firmware/efi/efivars
+tmpfs           2.8G  1.9M  2.8G   1% /run
+none            1.0M     0  1.0M   0% /run/credentials/systemd-cryptsetup@luks\x2dfff80dc0\x2d7d09\x2d40d2\x2d8a46\x2d8f0c135e1b18.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+/dev/dm-0       236G  8.2G  227G   4% /home
+/dev/nvme0n1p2  2.0G  496M  1.4G  28% /boot
+tmpfs           6.8G   12K  6.8G   1% /tmp
+/dev/nvme0n1p1  599M   21M  579M   4% /boot/efi
+tmpfs           1.4G  148K  1.4G   1% /run/user/1000
+
+===== Top 5 Memory Consuming Processes =====
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ShadoVa+    8309 11.0  5.0 12546592 715128 pts/2 Sl   15:05  12:25 /usr/lib64/firefox/firefox
+ShadoVa+    8842  9.2  4.0 3470864 575568 pts/2  Sl   15:05  10:21 /usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:47615 -prefMapHandle 1:286580 -jsInitHandle 2:156120 -parentBuildID 20260604082057 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4a4dc69c-f033-4c2b-8de0-1d83fc835480} -parentPid 8309 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+ShadoVa+    4412  7.0  2.8 5745276 404028 ?      Ssl  15:03   8:03 /usr/bin/plasmashell --no-respawn
+ShadoVa+    7950  0.2  2.5 1520596572 358168 ?   Sl   15:04   0:16 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD129 --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --crashpad-handler-pid=7767 --enable-crash-reporter=f488b5c1-d8ea-4c55-8b1c-b638dd423ee0,no_channel --user-data-dir=/home/ShadoVaine/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file,vscode-remote-resource --cors-schemes=vscode-webview,vscode-file,vscode-remote-resource --fetch-schemes=vscode-webview,vscode-file,vscode-remote-resource --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9060152331562735901,14364602708366143546,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,4956854773835309101,5733917402583526408,4 --trace-process-track-uuid=3190708992871164437
+ShadoVa+    8782  0.7  2.3 3099284 334060 pts/2  Sl   15:05   0:51 /usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:47615 -prefMapHandle 1:286580 -jsInitHandle 2:156120 -parentBuildID 20260604082057 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {c007388c-25bf-4c51-8f29-88d7e6d1fde0} -parentPid 8309 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+
+===== Top 5 CPU Consuming Process =====
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ShadoVa+    8309 11.0  5.0 12546592 715128 pts/2 Sl   15:05  12:25 /usr/lib64/firefox/firefox
+ShadoVa+    8842  9.2  4.0 3470864 575568 pts/2  Sl   15:05  10:21 /usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:47615 -prefMapHandle 1:286580 -jsInitHandle 2:156120 -parentBuildID 20260604082057 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4a4dc69c-f033-4c2b-8de0-1d83fc835480} -parentPid 8309 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+ShadoVa+    4152  9.1  1.6 2998604 235372 ?      Sl   15:03  10:31 /usr/bin/kwin_wayland --wayland-fd 7 --socket wayland-0 --xwayland-fd 8 --xwayland-fd 9 --xwayland-display :0 --xwayland-xauthority /run/user/1000/xauth_zgluDC --xwayland
+ShadoVa+    4412  7.0  2.8 5745276 404028 ?      Ssl  15:03   8:03 /usr/bin/plasmashell --no-respawn
+ShadoVa+    7852  2.9  2.3 1518637272 332940 ?   Rl   15:04   3:18 /usr/share/code/code --type=renderer --crashpad-handler-pid=7767 --enable-crash-reporter=f488b5c1-d8ea-4c55-8b1c-b638dd423ee0,no_channel --user-data-dir=/home/ShadoVaine/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file,vscode-remote-resource --cors-schemes=vscode-webview,vscode-file,vscode-remote-resource --fetch-schemes=vscode-webview,vscode-file,vscode-remote-resource --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --max-active-webgl-contexts=32 --ozone-platform=wayland --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1780862434922105 --launch-time-ticks=238460591 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9060152331562735901,14364602708366143546,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,4956854773835309101,5733917402583526408,4 --trace-process-track-uuid=3190708990060038890 --vscode-window-config=vscode:2506274c-ee43-478c-a416-f1818dc9dd71
+
