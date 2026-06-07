@@ -1,5 +1,7 @@
 # User-Management Lab
 
+## Overview
+
 This lab walks a user through user creation workflow inside a safe containized environment.
 
 ## Features
