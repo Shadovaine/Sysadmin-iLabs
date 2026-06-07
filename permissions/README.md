@@ -1,5 +1,7 @@
 # Permissions Lab
 
+## Overview
+
 Permissions lab guides a user through viewing and modifying permissions in a container. It also explains Linux permissions and various ways to modify them.
 
 ## Lab Features
