@@ -12,8 +12,28 @@ All labs in this repository use the container platform Podman. Each lab is desig
 
 ### To start a Lab Container
 
+**Clone Repo**
+
+```bash
+git clone github.com/Shadovaine/Sysadmin-iLabs
+```
+
+**Enter repo**
+
+```bash
+cd Sysadmin-iLabs
+```
+
+**Build lab image**
+
 ```bash
 podman build -t sysadmin-ilabs .
+```
+
+**Start Lab Container**
+
+```bash
+podman run -it --rm sysadmin-ilabs
 ```
 
 ## Labs
