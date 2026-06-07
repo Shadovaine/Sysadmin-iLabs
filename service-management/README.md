@@ -1,5 +1,7 @@
 # Service-Management Lab
 
+## Overview
+
 This is an interactive lab that guides a user through managing linux services in a container environment.
 
 ## Lab Features:
