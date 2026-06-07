@@ -9,7 +9,7 @@ Permissions lab guides a user through viewing and modifying permissions in a con
 - Explain Linux permissions
 - Reseting the lab
 
-## ### This lab uses the Podman container environment described in the Sysadmin-iLabs README.md.
+ ### This lab uses the Podman container environment described in the Sysadmin-iLabs README.md.
 
 **To Run Lab**
 
