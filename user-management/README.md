@@ -10,19 +10,13 @@ This lab walks a user through user creation workflow inside a safe containized e
 - View the user's home directory
 - Ability to Delete or Reset a lab user
 
-## Run the Lab
+### This lab uses the Podman container environment described in the Sysadmin-iLabs README.md.
 
-From the repo root:
-
-```bash
-podman build -t sysadmin-ilabs .
-podman run -it --rm sysadmin-ilabs
-```
-
-## Once inside container:
+**To Run Lab**
 
 ```bash
 ./user-management/lab.sh
 ```
+
 
 
