@@ -4,7 +4,17 @@ Interactive SysAdmin Labs is a hands-on Linux system administration practice rep
 
 Instead of only reading documentation, users run guided shell labs that simulate common junior SysAdmin tasks such as user management, permissions, log analysis, backups, and system health checks.
 
-The goal is to practice real admin workflows in a safe, repeatable lab environment.
+The goal is to practice real admin workflows in a safe, repeatable lab environment. 
+
+## Container Environment
+
+All labs in this repository use the container platform Podman. Each lab is designed to run inside a Podman container.
+
+### To start a Lab Container
+
+```bash
+podman build -t sysadmin-ilabs .
+```
 
 ## Labs
 
