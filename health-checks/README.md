@@ -32,8 +32,3 @@ This lab demonstrates how system administrators collect basic health information
 
 ### This lab uses the Podman container environment described in the Sysadmin-iLabs README.md.
 
-## To Run Lab
-
-```bash
-chmod +x health_check.sh
-./health_check.sh
