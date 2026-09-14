@@ -1,4 +1,8 @@
-# Health Checks Lab
+<h1>
+  <p align="center">
+    <b>Health Check Labs</b>
+  </p>
+</h1> 
 
 ## Overview
 
