@@ -1,7 +1,10 @@
-# User-Management Lab
+<h1>
+  <p align="center">  
+    <b>User-Management Lab</b>
+  </p>
+</h1>
 
 ## Overview
-
 This lab walks a user through user creation workflow inside a safe containized environment.
 
 ## Features
