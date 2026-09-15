@@ -1,4 +1,8 @@
-# Service-Management Lab
+<h1>
+  <p align="center">
+    <b>Service-Management Lab</b>
+  </p>
+</h1>
 
 ## Overview
 
