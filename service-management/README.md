@@ -6,7 +6,7 @@
 
 ## Overview
 
-This is an interactive lab that guides a user through managing linux services in a container environment.
+This is an interactive lab that guides a user through managing linux services.
 
 ## Lab Features:
 
@@ -18,8 +18,6 @@ This is an interactive lab that guides a user through managing linux services in
 - Disabling a service
 - Checking if a service exists
 
-
-### This lab uses the standard Podman environment described in the main repository README.
 
 **To Run Lab**
 
