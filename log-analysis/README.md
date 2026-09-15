@@ -1,4 +1,8 @@
-# Log Analysis Lab
+<h1>
+  <p align="center">
+    <b>Log Analysis Lab</b>
+  </p>
+</h1>
 
 ## Overview
 
