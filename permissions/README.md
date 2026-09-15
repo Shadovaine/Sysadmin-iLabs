@@ -1,4 +1,8 @@
-# Permissions Lab
+<h1>
+  <p align="center">
+   <b>Permissions Lab</b>
+  </p>
+</h1>
 
 ## Overview
 
