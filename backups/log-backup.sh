@@ -14,6 +14,23 @@ LOG="${BACKUP_LOG:-/backup/backup.log}" # the backup job's own log
 TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
 TARGET="${DEST}/${TIMESTAMP}"
 
+# --- NEW: Safety Checks ---
+# Ensure the destination directory exists before trying to write to it
+if [[ ! -d "$DEST" ]]; then
+    echo "[$(date)] ERROR: Destination directory '${DEST}' does not exist." >&2
+    echo "[$(date)] Hint: Did you mount the volume? e.g., -v /host/path:${DEST}" >&2
+    exit 1
+fi
+
+# Ensure we can write to the destination
+if [[ ! -w "$DEST" ]]; then
+    echo "[$(date)] ERROR: Destination directory '${DEST}' is not writable." >&2
+    exit 1
+fi
+
+# Create the specific log file path if the parent dif exists (we checked above)
+mkdir -p "$(dirname "$LOG")"
+
 echo "[$(date)] === Backup started ===" >> "$LOG"
 echo "[$(date)] Source: ${SOURCE}"       >> "$LOG"
 echo "[$(date)] Target: ${TARGET}"      >> "$LOG"
