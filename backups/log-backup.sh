@@ -7,7 +7,7 @@
 set -euo pipefail
 
 SOURCE="${SOURCE_DIR:-/var/log}"        # what to back up
-DEST="${DEST_DIR:-/backup/logs}"        # backup drive mount point (inside container)
+DEST="${DEST_DIR:-/backups/logs}"        # backup drive mount point (inside container)
 KEEP="${KEEP_COUNT:-14}"                # how many snapshots to retain
 LOG="${BACKUP_LOG:-/backup/backup.log}" # the backup job's own log
 
