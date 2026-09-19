@@ -37,16 +37,25 @@ podman build -t sysadmin-ilabs .
 ```bash
 podman run -it --rm sysadmin-ilabs
 ```
+## Virtual Machines
+Virt-manager is basically the easy button for running VMs on Linux — it's a GUI sitting on top of libvirt and KVM, so you get point-and-click control over your virtual machines without memorizing virsh commands. VMs are full fake computers running on your real one: their own kernel, their own disk, their own everything. That makes them slower and hungrier than containers, but sometimes you need a whole machine — playing with fstab and mounts, networking, SELinux, that kind of thing — and a container just can't fake it. The best part for learning is snapshots: wreck the VM on purpose, roll it back, and nothing of consequence happened.
 
 ## SysAdmin-iLabs
+
+### Podman Container Environment Labs
 
 - [User Management](./user-management)
 - [Permissions](./permissions)
 - [Log Analysis](./log-analysis)
 - [Service Management](./service-management)
-- [Backup Automation](./backup-automation)
+- [Backup Automation](./backups)
 - [System Health Check](./system-health-check)
 
+### Virtual Machine Labs
+
+- [Backup Automation](./backups)
+- [Service Management](./service-management)
+  
 ## Project Goals
 
 This repo is designed to demonstrate:
