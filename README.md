@@ -47,8 +47,6 @@ Virt-manager is basically the easy button for running VMs on Linux — it's a GU
 - [User Management](./user-management)
 - [Permissions](./permissions)
 - [Log Analysis](./log-analysis)
-- [Service Management](./service-management)
-- [Backup Automation](./backups)
 - [System Health Check](./system-health-check)
 
 ### Virtual Machine Labs
