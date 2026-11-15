@@ -1,5 +1,5 @@
 <h1>
-  <p align="center">
+  <p>
     <b>SysAdmin iLabs</b>
   </p>
 </h1>
